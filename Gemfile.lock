@@ -1,0 +1,54 @@
+GIT
+  remote: git://github.com/djstrong/progress.git
+  revision: 46b34854f62c5f96a116cd971cd6d6226796e35c
+  specs:
+    progress (3.0.0)
+
+PATH
+  remote: ../../../nlp/cycr
+  specs:
+    cycr (0.2.7)
+      ref (~> 1.0.0)
+
+PATH
+  remote: ../wiki
+  specs:
+    cyclopedio-wiki (0.1.0)
+      rod (~> 0.7.4.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    RubyInline (3.12.4)
+      ZenTest (~> 4.3)
+    ZenTest (4.11.0)
+    activemodel (3.2.22)
+      activesupport (= 3.2.22)
+      builder (~> 3.0.0)
+    activesupport (3.2.22)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    bsearch (1.5.0)
+    builder (3.0.4)
+    english (0.5.0)
+    i18n (0.7.0)
+    iconv (1.0.4)
+    multi_json (1.11.2)
+    ref (1.0.5)
+    rod (0.7.4.1)
+      RubyInline (>= 3.10.0, < 4.0.0)
+      activemodel (~> 3.2, >= 3.2.2)
+      bsearch (>= 1.5.0, < 1.6.0)
+      english (>= 0.5.0, < 0.6.0)
+      ref (>= 1.0.5, < 2.0.0)
+    slop (3.4.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cyclopedio-wiki!
+  cycr!
+  iconv
+  progress!
+  slop (~> 3.4.7)
