@@ -5,12 +5,6 @@ GIT
     progress (3.0.0)
 
 PATH
-  remote: ../../../nlp/cycr
-  specs:
-    cycr (0.2.7)
-      ref (~> 1.0.0)
-
-PATH
   remote: ../wiki
   specs:
     cyclopedio-wiki (0.1.0)
@@ -30,7 +24,10 @@ GEM
       multi_json (~> 1.0)
     bsearch (1.5.0)
     builder (3.0.4)
+    cycr (0.2.7)
+      ref (~> 1.0.0)
     english (0.5.0)
+    htmlentities (4.3.4)
     i18n (0.7.0)
     iconv (1.0.4)
     multi_json (1.11.2)
@@ -48,7 +45,8 @@ PLATFORMS
 
 DEPENDENCIES
   cyclopedio-wiki!
-  cycr!
+  cycr (~> 0.2.7)
+  htmlentities
   iconv
   progress!
   slop (~> 3.4.7)

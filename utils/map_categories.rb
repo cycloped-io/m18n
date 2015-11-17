@@ -5,6 +5,7 @@ $:.unshift "lib"
 require 'slop'
 require 'progress'
 require 'cyclopedio/wiki'
+require 'csv'
 
 options = Slop.new do
   banner "#{$PROGRAM_NAME} -d database -o mapping.csv [-p port] [-h host] [-x offset] [-l limit] [-c c:s:n]\n"+
